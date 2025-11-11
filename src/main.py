@@ -1,6 +1,6 @@
 from fastapi import Depends, FastAPI, Response
 
-from src.core.config import Settings
+from src.core.config import Settings, get_settings
 
 app = FastAPI(description="Fast API 练习项目实战")
 
